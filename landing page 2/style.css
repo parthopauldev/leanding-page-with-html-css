@@ -39,7 +39,12 @@ font-weight:bold;
 .logo span{
 color: #FFA500;
 }
+.btn:hover{
+     background-image: linear-gradient( to right,#6be084,#4d47ff);
+       box-shadow:none;
+}
 .btn{
+    box-shadow: 1px 1px 5px 3px rgb(207, 146, 71);
     color: black;
     width: 248px;
     height: 64px;
