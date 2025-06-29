@@ -1,0 +1,274 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100vw;
+      background-image: linear-gradient(#E6E6FA,#B8E7FA);
+      min-height: 100vh;
+}
+/*-- header--*/
+header{
+width: 100vw;
+background-color: white;
+height: 112px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 100px;
+}
+.header-container{
+ 
+    align-items: center;
+    width: 87.5%;
+    display: flex;
+    justify-content: space-between;
+
+margin: 0px auto;
+}
+.logo{
+font-size: 24px;
+font-weight:bold;
+}
+.logo span{
+color: #FFA500;
+}
+.btn{
+    color: black;
+    width: 248px;
+    height: 64px;
+    align-items: center;
+   
+    background-image: linear-gradient( to right,#ffa500,#FFD447);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:
+}
+/*-- section-1--*/
+.section-1,.section-2,.section-3,.section-4{
+background-color: white;
+    width: 87.5%;
+    margin: 0px auto 100px auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+.section-1 .img-box{
+width: 240px;
+height: 240px;
+
+margin: 0px auto 32px auto;
+
+
+}
+.section-1 h2,.h2{
+    font-size: 48px;
+   font-weight: bold;
+   line-height: 68px;
+   margin-bottom: 24px;
+}
+.section-2{
+    background-color: transparent;
+}
+.section-1 p,.p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+
+}
+.section-1 button{
+
+}
+/*-- section-2--*/
+.working-developer-box{
+  background-color: white;
+    display: flex;
+    padding: 48px;
+    align-items: center;
+}
+.section-2 p{
+    margin-bottom: 48px;
+}
+.content-box{
+    width: 60%;
+  text-align: left;
+}
+
+.content-box h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.content-box p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.img-box{
+    width: 40%;
+height: 388px;
+}
+/*-- section-3--*/
+.section-3{
+    background-color: transparent;
+  
+}
+.section-3 p{
+    margin-bottom: 48px;
+}
+.video-box{
+    
+    width: 76.3%;
+    margin: auto;
+    height: 556px;
+    padding: 32px;
+border: 1px solid rgb(81, 79, 79,0.5);
+border-radius: 16px;
+}
+.video-box iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+/*-- section-4--*/
+.section-4 p{
+    margin-bottom: 48px;
+}
+.section-4{
+    background-color: transparent;
+}
+.items-box{
+    width: 100%;
+ 
+    display: flex;
+   
+    padding-bottom: 30px;
+ 
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.items-box img{
+    width: 56px;
+    height: 56px;
+
+}
+
+.item *{
+margin-bottom: 10px;
+}
+.item a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-image: l;
+}
+.item{
+ 
+   min-width: 280px; 
+box-shadow: 0px 0px 7px 0px rgb(169, 167, 167);
+    padding: 30px;
+    text-align: start;
+  background-image: linear-gradient(#E6E6FA,#B8E7FA);
+  border-radius: 16px;
+  
+}
+/*-- footer--*/
+footer{
+    background-color: white;
+    width: 100%;
+}
+footer .content-box{
+  
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 87.5%;
+    align-items: center;
+    position: relative;
+    padding: 4px;
+  
+}
+footer .content-box p{
+    align-items: center;
+   
+    position: relative;
+    top: 18px;
+
+}
+footer .icom{
+    width: 36px;
+    height: 36px;
+}
+footer .content-box p{
+    font-size: 17px;
+    font-weight: bold;
+ 
+}
+.icons-box{
+    display: flex;
+    gap: 24px;
+}
+/*-- redponsive--*/
+/*-- leptop--*/
+@media only screen and (max-width: 1200px) {
+ .section-1{
+    padding: 30px;
+ }
+}
+/*-- tablet--*/
+@media only screen and (max-width: 1025px) {
+ .working-developer-box {
+    flex-direction: column-reverse;
+ }
+ .content-box{
+    width: 100%;
+ text-align: center;
+ 
+}
+.items-box{
+    justify-content: center;
+    gap: 33px;
+}
+.item{
+ min-width: 230px;
+}
+.section-2,.section-3,.section-4{
+    margin-bottom: 0px;
+}
+.img-box{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.video-box{
+    height: 474px;
+}
+
+}
+/*-- mobile--*/
+@media only screen and (max-width: 640px) {
+ .h2{
+    font-size: 30px;
+    line-height: 40px;
+ }
+ .content h2{
+    font-size: 30px;
+    line-height: 40px;
+ }
+ .video-box{
+    height: 374px;
+    padding: 6px;
+    width: 94%;
+}
+.item{
+    min-width: 90%;
+}
+}
+
